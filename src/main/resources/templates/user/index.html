@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org/">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spa Menu</title>
+    <link href="../static/css/styles.css" th:href="@{/css/styles.css}" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="container">
+      <p th:text="Welcome, ${username}"></p>
+      <h4><a th:href="@{/}">Select spa treatments</a></h4>
+    </div>
+  </body>
+</html>
